@@ -1,5 +1,13 @@
 .App {
-  text-align: center;
+  background-color: #222222;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
 }
 
 .App-logo {
@@ -21,7 +29,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
@@ -35,4 +43,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  background-color: #222222;
 }
